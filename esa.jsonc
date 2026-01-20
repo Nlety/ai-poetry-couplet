@@ -1,15 +1,7 @@
 {
     "name": "ai-poetry-couplet",
-    "routes": [
-        {
-            "path": "/api/poetry-storage",
-            "function": "poetry-storage"
-        }
-    ],
-    "functions": [
-        {
-            "name": "poetry-storage",
-            "entry": "edge-functions/poetry-storage.js"
-        }
-    ]
+    "entry": "./edge-functions/poetry-storage.js",
+    "assets": {
+        "directory": "./"
+    }
 }
