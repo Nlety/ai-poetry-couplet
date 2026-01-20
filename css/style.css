@@ -1,0 +1,17 @@
+* {
+    font-family: 'Noto Serif SC', serif;
+}
+
+.type-btn.active {
+    background: linear-gradient(to right, rgb(220, 38, 38), rgb(245, 158, 11));
+    color: white;
+    box-shadow: 0 4px 14px rgba(220, 38, 38, 0.3);
+}
+
+#settings-modal.show {
+    display: flex;
+}
+
+#collection-panel.open {
+    transform: translateX(0);
+}
